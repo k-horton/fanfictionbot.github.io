@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,7 +17,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 20pt;
-  font: inherit;
+  font-family: "Lato";
   vertical-align: baseline;
 }
 
@@ -54,7 +56,7 @@ table {
  * Licensed under the MIT License:
  * http://www.opensource.org/licenses/mit-license.php
 
- * Edited by FanfictionBot
+ * Edited by FanfictionBot & k-horton
  */
 body {
   margin-top: 2em;
@@ -62,11 +64,35 @@ body {
   background: #f7f7f7;
 }
 
+h1 {
+     text-align: center;
+     font-family: "Fjalla One";
+     font-size: 48pt;
+}
+
+hr {
+     width: 60%;
+     border: 0;
+     height: 0;
+     border-top: 1px solid rgba(0, 0, 0, 0.15);
+     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 input {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 20pt;
   color: #555860;
+}
+
+.headerLinks, .headerLinks a {
+     text-align: center;
+     font-size: 12pt;
+}
+
+.headerLinks a {
+     padding-left: 20px;
+     padding-right: 20px;
 }
 
 .search {
@@ -108,11 +134,12 @@ input {
   right: 0;
   z-index: 10;
   background: #fdfdfd;
+  margin-bottom: 5%;
   border: 0.1em solid;
   border-color: #cbcfe2 #c8cee7 #c4c7d7;
   border-radius: 0.7em;
   font-size: 20pt;
-  
+
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
